@@ -1,0 +1,24 @@
+train:
+  seed: 0 
+  supervised_percent: 1
+
+burn_in_stage:
+  burn_in_ckpt: "./exp_demo/model_best.pth"
+  burnIn_on: False
+  steps: 6000
+
+mutual_learning_stage:
+  steps: 12000
+  ema_rate: 0.99
+
+augmentation:
+  aug_on: True
+  weak: ("Gaussian fliter","Horizontal flipping")
+  strong: ("Color jittering")
+
+semi_settings:
+  pseudo_label_type: "hard_label" # soft_label
+  hard_label_thresh: 0.5
+  element_wise_weight: True
+  soft_method: "gaussian"
+  is_kl_loss: True
