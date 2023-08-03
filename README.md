@@ -3,8 +3,7 @@ The official implementation of the SSPNG paper in PyTorch.
 ## Semi-Supervised Panoptic Narrative Grounding
 ![](figures/pipeline.png)
 > Semi-Supervised Panoptic Narrative Grounding.
-> Danni Yang, Jiayi Ji*, Xiaoshuai Sun, Haowei Wang, Yinan Li, Yiwei Ma, Rongrong Ji
-> _ACM MM 2023_ (arvix)
+> Danni Yang, Jiayi Ji*, Xiaoshuai Sun, Haowei Wang, Yinan Li, Yiwei Ma, Rongrong Ji.
 ## News
 * [2023-08-3] Code is released.
 
