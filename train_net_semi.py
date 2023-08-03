@@ -306,12 +306,9 @@ def train_semi(cfg):
         else:
             generate_data(seed,sup_percent,data_dir=osp.join(cfg.data_dir,'coco'))
     else:
-        # wait for the splited dataset
-        # or pass 
-        
-        time.sleep(600)
-        
-        # pass
+        pass
+    
+    torch.distributed.barrier()
     if dist.get_rank() == 0:
         logger.info(cfg)
     
