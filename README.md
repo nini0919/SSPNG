@@ -1,4 +1,4 @@
-# SSPNG
+# SSPNG (ACM MM 2023)
 The official implementation of the SSPNG paper in PyTorch.
 ## Semi-Supervised Panoptic Narrative Grounding
 ![](figures/pipeline.png)
